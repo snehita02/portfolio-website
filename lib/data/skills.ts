@@ -1,0 +1,86 @@
+import { SkillCategory } from "@/types";
+
+export const skills: SkillCategory[] = [
+  {
+    category: "AI & Machine Learning",
+    icon: "Brain",
+    items: [
+      { name: "LangChain" },
+      { name: "OpenAI API" },
+      { name: "Hugging Face" },
+      { name: "RAG Systems" },
+      { name: "Agentic AI" },
+      { name: "NLP" },
+      { name: "Scikit-learn" },
+      { name: "TensorFlow" },
+      { name: "Computer Vision" },
+      { name: "Prompt Engineering" },
+      { name: "Vector Databases" },
+      { name: "NeuralSeek" },
+    ],
+  },
+  {
+    category: "Programming Languages",
+    icon: "Code2",
+    items: [
+      { name: "Python" },
+      { name: "TypeScript" },
+      { name: "JavaScript" },
+      { name: "Java" },
+      { name: "SQL" },
+      { name: "Bash" },
+    ],
+  },
+  {
+    category: "Backend Development",
+    icon: "Server",
+    items: [
+      { name: "FastAPI" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "REST APIs" },
+      { name: "GraphQL" },
+      { name: "Spring Boot" },
+      { name: "Microservices" },
+    ],
+  },
+  {
+    category: "Data Engineering",
+    icon: "Database",
+    items: [
+      { name: "Apache Spark" },
+      { name: "dbt" },
+      { name: "PostgreSQL" },
+      { name: "MongoDB" },
+      { name: "Pinecone" },
+      { name: "ETL Pipelines" },
+      { name: "Pandas" },
+      { name: "NumPy" },
+    ],
+  },
+  {
+    category: "Automation",
+    icon: "Zap",
+    items: [
+      { name: "n8n" },
+      { name: "Make (Integromat)" },
+      { name: "Zapier" },
+      { name: "Workflow Orchestration" },
+      { name: "RPA" },
+      { name: "Selenium" },
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    icon: "Cloud",
+    items: [
+      { name: "AWS" },
+      { name: "Google Cloud (GCP)" },
+      { name: "Docker" },
+      { name: "GitHub Actions" },
+      { name: "Vercel" },
+      { name: "CI/CD" },
+      { name: "Linux" },
+    ],
+  },
+];
